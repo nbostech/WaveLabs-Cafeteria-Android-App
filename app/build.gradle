@@ -20,11 +20,20 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha3'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.google.zxing:core:3.2.1'
+    compile 'cn.bingoogolapple:bga-qrcodecore:1.1.0@aar'
+    compile 'cn.bingoogolapple:bga-zxing:1.1.0@aar'
+    compile 'com.facebook.android:account-kit-sdk:4.12.0'
+    compile 'in.wavelabs:idn:0.1.1'
     testCompile 'junit:junit:4.12'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
     androidTestCompile 'com.android.support.test:runner:0.5'
     androidTestCompile 'com.android.support:support-annotations:24.0.0'
+    compile 'in.wavelabs:api-model:0.2.2'
+    compile 'pub.devrel:easypermissions:0.1.7'
 }

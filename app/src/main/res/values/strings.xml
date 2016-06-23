@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WaveLabs Cafeteria</string>
+    <string name="ak_client_token">b4217f8fc966d9808f9f5ef177e9915e</string>
+    <string name="ak_app_id">235208853532206</string>
+    <string name="wavelabs_app_id">Cafeteria-module-client</string>
+    <string name="wavelabs_app_secret">Admin@123</string>
 </resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="bga-zxing-1.1.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.bingoogolapple/bga-zxing/1.1.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.bingoogolapple/bga-zxing/1.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.bingoogolapple/bga-zxing/1.1.0/8296b2980fc36713187e7459baf623c71f724d7a/bga-zxing-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

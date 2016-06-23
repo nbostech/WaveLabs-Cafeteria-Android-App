@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="idn-0.1.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/in.wavelabs/idn/0.1.1/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/in.wavelabs/idn/0.1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/in.wavelabs/idn/0.1.1/3481c78dee2a586bd0119bdf1cc38b1f30943e79/idn-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,20 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="in.wavelabs.cafeteria">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
+        android:name=".CafeteriaApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="in.wavelabs.idn.WAVELABS_CLIENT_ID"
+            android:value="@string/wavelabs_app_id" />
+        <meta-data
+            android:name="in.wavelabs.idn.WAVELABS_CLIENT_SECRET"
+            android:value="@string/wavelabs_app_secret" />
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/ak_client_token" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/ak_app_id" />
+
+        <activity
+            android:name="com.facebook.accountkit.ui.AccountKitActivity"
+            android:theme="@style/AppLoginTheme.Yellow"
+            tools:replace="android:theme" />
+        <activity android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".ActivityScan"
+            android:theme="@style/AppTheme"
+            android:label="WaveLabs Cafeteria Coupon Scanner"
+            ></activity>
     </application>
 
 </manifest>
